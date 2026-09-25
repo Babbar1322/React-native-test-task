@@ -20,7 +20,7 @@ import { ProfessionalProps } from "../../Typings/route";
 import COLORS from "../../Utilities/Colors";
 import { getFullImageUrl } from "../../Utilities/Helpers";
 import { horizontalScale, verticalScale } from "../../Utilities/Metrics";
-import styles from "./styles";
+import styles from "./Styles";
 
 const Professional: FC<ProfessionalProps> = ({ navigation }) => {
   const [professionalProfiles, setProfessionalProfiles] = React.useState<
