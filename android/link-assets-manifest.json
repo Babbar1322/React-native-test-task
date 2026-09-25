@@ -1,0 +1,77 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/Assets/Fonts/Rokkitt-LightItalic.ttf",
+      "sha1": "3cedb1a4a90a7f083ac54ada04e452f2dd3bb9ac"
+    },
+    {
+      "path": "src/Assets/Fonts/Rye-Regular.ttf",
+      "sha1": "68b3b71dd58d3acf1b05217fa3bb432be0673adf"
+    },
+    {
+      "path": "src/Assets/Fonts/SairaExtraCondensed-Regular.ttf",
+      "sha1": "ee4957eedd37e17277abc8212a5ae96fb17ef160"
+    },
+    {
+      "path": "src/Assets/Fonts/Sarpanch-Regular.ttf",
+      "sha1": "6d7e6d50b1cf079134e631682e85b6870fb427fd"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-Black.otf",
+      "sha1": "d92baad4dab9ca55bc72f1a8a0a6de72829e709f"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-BlackItalic.otf",
+      "sha1": "2fada5e2f31f7e2f252d458094603daca66f4a0a"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-Bold.otf",
+      "sha1": "57a9e1c24984708865f7d0c31a03773912fb975f"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-BoldItalic.otf",
+      "sha1": "c279f41805b46f030eb4a1d55ceaf7c4cacd1a39"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-Italic.otf",
+      "sha1": "1ee38a9969b628781bc30ed690f6571aca189451"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-Light.otf",
+      "sha1": "3b1b977f00db442bdf30f63603112e6e251b7dda"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-LightItalic.otf",
+      "sha1": "782b6239e9a537ffcd574fb26b69201b67b96dc2"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-Medium.otf",
+      "sha1": "704faccb5fff19f25c0b914d42d135ab75794a24"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-MediumItalic.otf",
+      "sha1": "89936e7345cfa18dadc048e3a9266947c7f12839"
+    },
+    {
+      "path": "src/Assets/Fonts/Satoshi-Regular.otf",
+      "sha1": "7dcb59994f2bee1a4ef1f6c079ba0e99b409878b"
+    },
+    {
+      "path": "src/Assets/Fonts/SchibstedGrotesk-Italic.ttf",
+      "sha1": "da86c3b9ac7c289393f0d1d86df828816bd31779"
+    },
+    {
+      "path": "src/Assets/Fonts/SendFlowers-Regular.ttf",
+      "sha1": "1669fd33274c81d58aa2daf10dabe14eceef9e22"
+    },
+    {
+      "path": "src/Assets/Fonts/Sevillana-Regular.ttf",
+      "sha1": "3403153ab25c39d6d050b87b2e55f580d384afe8"
+    },
+    {
+      "path": "src/Assets/Fonts/index.ts",
+      "sha1": "39d85d24514fe18c725d49770f0dfb7e20b828a0"
+    }
+  ]
+}

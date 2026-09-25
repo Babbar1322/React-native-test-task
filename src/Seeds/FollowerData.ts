@@ -1,0 +1,77 @@
+import IMAGES from "../Assets/Images";
+import { FEvents } from "../Typings/type";
+
+export const followersData: FEvents[] = [
+  {
+    id: "1",
+    name: "Presh",
+    age: 21,
+    miles: 5,
+    image: IMAGES.randomUser1,
+    status: "Following",
+  },
+  {
+    id: "2",
+    name: "Wani",
+    age: 33,
+    miles: 2,
+    image: IMAGES.randomUser2,
+    status: "Follow Back",
+  },
+  {
+    id: "3",
+    name: "Devi",
+    age: 24,
+    miles: 5,
+    image: IMAGES.randomUser1,
+    status: "Following",
+  },
+  {
+    id: "4",
+    name: "Restu",
+    age: 28,
+    miles: 5,
+    image: IMAGES.randomUser2,
+    status: "Following",
+  },
+  {
+    id: "5",
+    name: "Yani",
+    age: 30,
+    miles: 5,
+    image: IMAGES.randomUser1,
+    status: "Follow Back",
+  },
+  {
+    id: "6",
+    name: "Raisa",
+    age: 22,
+    miles: 6,
+    image: IMAGES.randomUser2,
+    status: "Follow Back",
+  },
+  {
+    id: "7",
+    name: "Cindy",
+    age: 34,
+    miles: 5,
+    image: IMAGES.randomUser1,
+    status: "Follow Back",
+  },
+  {
+    id: "8",
+    name: "Elma",
+    age: 27,
+    miles: 5,
+    image: IMAGES.randomUser2,
+    status: "Follow Back",
+  },
+  {
+    id: "9",
+    name: "Mala",
+    age: 29,
+    miles: 5,
+    image: IMAGES.randomUser1,
+    status: "Follow Back",
+  },
+];

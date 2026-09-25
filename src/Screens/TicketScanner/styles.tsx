@@ -1,0 +1,217 @@
+import { StyleSheet, Dimensions } from "react-native";
+import { horizontalScale, verticalScale } from "../../Utilities/Metrics";
+import COLORS from "../../Utilities/Colors";
+
+const { width, height } = Dimensions.get("window");
+const qrCodeFrameSize = width * 0.7;
+const cornerMarkerSize = 40; // Size of the corner markers (width and height)
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.appBackground,
+    gap: verticalScale(10),
+    paddingHorizontal: horizontalScale(16),
+  },
+  camera: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(0, 0, 0, 0.7)",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  qrFrame: {
+    width: qrCodeFrameSize,
+    height: qrCodeFrameSize,
+    position: "absolute",
+    top: (height - qrCodeFrameSize) / 2,
+    left: (width - qrCodeFrameSize) / 2,
+    backgroundColor: "transparent",
+  },
+  cornerMarkerTopLeft: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: cornerMarkerSize,
+    height: cornerMarkerSize,
+    borderColor: "white",
+    borderWidth: 3,
+    borderRightWidth: 0,
+    borderBottomWidth: 0,
+    borderTopLeftRadius: 30,
+  },
+  cornerMarkerTopRight: {
+    position: "absolute",
+    top: 0,
+    right: 0,
+    width: cornerMarkerSize,
+    height: cornerMarkerSize,
+    borderColor: "white",
+    borderWidth: 3,
+    borderLeftWidth: 0,
+    borderBottomWidth: 0,
+    borderTopRightRadius: 30,
+  },
+  cornerMarkerBottomLeft: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    width: cornerMarkerSize,
+    height: cornerMarkerSize,
+    borderColor: "white",
+    borderWidth: 3,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomLeftRadius: 30,
+  },
+  cornerMarkerBottomRight: {
+    position: "absolute",
+    bottom: 0,
+    right: 0,
+    width: cornerMarkerSize,
+    height: cornerMarkerSize,
+    borderColor: "white",
+    borderWidth: 3,
+    borderLeftWidth: 0,
+    borderTopWidth: 0,
+    borderBottomRightRadius: 30,
+  },
+  scanLine: {
+    width: qrCodeFrameSize - cornerMarkerSize,
+    height: 2,
+    backgroundColor: "white",
+    position: "absolute",
+    alignSelf: "center",
+  },
+  scannedCodeContainer: {
+    position: "absolute",
+    bottom: 50,
+    backgroundColor: "rgba(0, 0, 0, 0.7)",
+    padding: 15,
+    borderRadius: 5,
+    alignSelf: "center",
+  },
+  scannedCodeText: {
+    color: "red",
+  },
+  header: {
+    opacity: 0.6,
+  },
+  bottomIcons: {
+    flexDirection: "row",
+    gap: horizontalScale(20),
+    alignSelf: "center",
+    position: "absolute",
+    bottom: 20,
+  },
+  // Ticket Detail View Styles
+  scrollContent: {
+    paddingBottom: verticalScale(30),
+  },
+  headerTicketView: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: horizontalScale(16),
+    paddingBottom: verticalScale(16),
+  },
+  ticketContainer: {
+    marginHorizontal: horizontalScale(16),
+    marginVertical: verticalScale(10),
+    backgroundColor: COLORS.white,
+    borderRadius: 12,
+    overflow: "hidden",
+    borderWidth: 1,
+    borderColor: COLORS.darkVoilet,
+  },
+  leftNotch: {
+    width: 20,
+    height: 20,
+    backgroundColor: COLORS.appBackground,
+    borderRadius: 10,
+    position: "absolute",
+    left: -10,
+    top: "50%",
+    marginTop: -10,
+    zIndex: 1,
+  },
+  rightNotch: {
+    width: 20,
+    height: 20,
+    backgroundColor: COLORS.appBackground,
+    borderRadius: 10,
+    position: "absolute",
+    right: -10,
+    top: "50%",
+    marginTop: -10,
+    zIndex: 1,
+  },
+  ticketImage: {
+    height: verticalScale(150),
+    width: "100%",
+    justifyContent: "flex-end",
+  },
+  ticketDetails: {
+    paddingHorizontal: horizontalScale(16),
+    paddingVertical: verticalScale(16),
+    gap: verticalScale(12),
+  },
+  qrSection: {
+    alignItems: "center",
+    gap: verticalScale(8),
+    paddingVertical: verticalScale(10),
+    backgroundColor: COLORS.white,
+  },
+  qrCode: {
+    width: verticalScale(100),
+    height: verticalScale(100),
+    resizeMode: "contain",
+  },
+  rowBetween: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+  },
+  infoBlock: {
+    gap: verticalScale(4),
+  },
+  separator: {
+    height: 1,
+    backgroundColor: COLORS.darkVoilet,
+    marginVertical: verticalScale(8),
+  },
+  benefitsList: {
+    gap: verticalScale(6),
+    marginTop: verticalScale(6),
+  },
+  benefitItem: {
+    paddingVertical: verticalScale(4),
+  },
+  soldOutBadge: {
+    backgroundColor: COLORS.Red,
+    paddingVertical: verticalScale(12),
+    alignItems: "center",
+    marginHorizontal: horizontalScale(16),
+    borderRadius: 8,
+    marginVertical: verticalScale(12),
+  },
+  buttonContainer: {
+    gap: verticalScale(12),
+    marginHorizontal: horizontalScale(16),
+    marginVertical: verticalScale(16),
+  },
+  secondaryButton: {
+    backgroundColor: COLORS.darkVoilet,
+  },
+  errorContainer: {
+    backgroundColor: COLORS.appBackground,
+    padding: horizontalScale(12),
+    borderRadius: 8,
+    marginHorizontal: horizontalScale(16),
+    marginVertical: verticalScale(12),
+    borderWidth: 1,
+    borderColor: COLORS.Red,
+  },
+});

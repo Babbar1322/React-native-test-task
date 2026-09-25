@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "208033563256",
+    "project_id": "baccvs-7d551",
+    "storage_bucket": "baccvs-7d551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208033563256:android:29def2381a0a9ce052a38d",
+        "android_client_info": {
+          "package_name": "com.baccvs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208033563256-ndedjitos160nsa94lltfn9gs4sm2hbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDolkBnBXwUiEJdzUHlb3ba3bGsPygKK1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208033563256-ndedjitos160nsa94lltfn9gs4sm2hbk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208033563256-ltnqse5k245ulu49tilsqj8q324kbrmt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.said.baccvs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "apple_pay.cer",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
